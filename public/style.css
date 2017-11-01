@@ -1,0 +1,46 @@
+body {
+  padding-top: 20px;
+  background: darkgreen;
+  font-size: 20px;
+}
+
+#leaderboard {
+  height: auto;
+  color: white;
+
+  text-transform: uppercase;
+  font-family: 'Righteous', cursive;
+  font-size: 3vmax;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.img-fluid {
+  height: 2.5em;
+}
+
+.username {
+  margin-left: 20px;
+  color: white;
+}
+
+.username:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+footer a:hover {
+  color: white;
+}
