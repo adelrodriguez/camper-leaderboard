@@ -6,15 +6,17 @@ window.onload = () => {
   const recentIcon = document.getElementById('recent-icon');
   const allTimeIcon = document.getElementById('all-time-icon');
 
-  [...scoreCell].forEach(cell => {
-    cell.onclick = () => {
-      if (recentIcon.classList.contains('hidden')) {
-        recentIcon.classList.remove('hidden');
-        allTimeIcon.classList.add('hidden');
-      } else if (allTimeIcon.classList.contains('hidden')) {
-        recentIcon.classList.add('hidden');
-        allTimeIcon.classList.remove('hidden');
-      }
-    };
-  });
+  [...scoreCell][0].onclick = () => {
+    if (recentIcon.classList.contains('hidden')) {
+      recentIcon.classList.remove('hidden');
+      allTimeIcon.classList.add('hidden');
+    }
+  };
+  
+  [...scoreCell][1].onclick = () => {
+    if (allTimeIcon.classList.contains('hidden')) {
+      recentIcon.classList.add('hidden');
+      allTimeIcon.classList.remove('hidden');
+    }
+  };
 };
