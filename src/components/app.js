@@ -44,10 +44,12 @@ class App extends Component {
           <img className="img-fluid align-middle" src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="freecodecamp logo" />
           <h1 id="leaderboard" className="align-middle">Leaderboard</h1>
         </div>
-        <Table
-          campers={ this.state.campers }
-          onCampersSort={ order => this.campersSort(order) }
-        />
+        <div className="table-responsive">
+          <Table
+            campers={this.state.campers}
+            onCampersSort={order => this.campersSort(order)}
+          />
+        </div>
       </div>
     );
   }
