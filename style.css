@@ -13,6 +13,10 @@ body {
   font-size: 3vmax;
 }
 
+.table-responsive {
+  display: table;
+}
+
 table {
   margin-top: 20px;
 }
