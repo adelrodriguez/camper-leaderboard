@@ -9,4 +9,4 @@ This project was built for freeCodeCamp's [Build a Camper Leaderboard](https://w
 * React
 * [create-react-app](https://github.com/facebookincubator/create-react-app)
 * [FCC Top 100 API](https://fcctop100.herokuapp.com/api/fccusers/top/recent)
-* [Boostrap 4](https://getbootstrap.com/)
+* [Bootstrap 4](https://getbootstrap.com/)
